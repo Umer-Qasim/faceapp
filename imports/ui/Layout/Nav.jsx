@@ -10,7 +10,10 @@ export const Nav = (props) => {
           <button
             className="nav-logout"
             type="button"
-            onClick={props.togglelogin}
+            onClick={() => {
+              Meteor.logout();
+              props.togglelogin();
+            }}
           >
             Logout
           </button>

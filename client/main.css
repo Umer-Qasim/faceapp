@@ -19,8 +19,8 @@ body {
   box-sizing: border-box;
 }
 
-.nav,
-footer {
+.nav
+ {
   display: flex;
   align-items: center;
   text-align: center;
@@ -32,6 +32,10 @@ footer {
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
   padding: 1rem 1rem;
+}
+
+.footer{
+  
 }
 
 .nav-logo {
@@ -65,7 +69,12 @@ footer {
 .made-by a {
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
-  color: white;
+  color: gray;
+  padding: 1rem;
+}
+
+.made-by a{
+  padding: 0px;
 }
 
 .content {
@@ -87,7 +96,7 @@ footer {
   height: auto;
   left: 50%;
   top: 40%;
-  transform: translateX(-50%) translateY(7rem);
+  transform: translateX(-50%) translateY(10vh);
   background: #fff;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
